@@ -3,10 +3,9 @@
 //  
 //
 //  Created by Enes Karaosman on 27.11.2020.
-//
+//  Modified by Dalton Alexandre on 5/23/24
 
 import SwiftUI
-import Kingfisher
 
 internal struct ViewFactory: PresentableProtocol {
     
@@ -143,11 +142,6 @@ internal struct ViewFactory: PresentableProtocol {
                 .scaledToFit()
         } else if let localIconName = material.values?.localImageName {
             Image(localIconName)
-                .resizable()
-                .scaledToFit()
-
-        } else if let remoteUrl = material.values?.imageUrl {
-            KFImage(URL(string: remoteUrl))
                 .resizable()
                 .scaledToFit()
         } else {

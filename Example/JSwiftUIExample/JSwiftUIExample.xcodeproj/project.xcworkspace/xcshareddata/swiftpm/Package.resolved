@@ -1,0 +1,24 @@
+{
+  "originHash" : "7258abdad9ebe6ac33b4ff2ddf474b1aaa524f6ec5c354c010085230be413268",
+  "pins" : [
+    {
+      "identity" : "jsondrivenui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dl-alexandre/JSONDrivenUI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1cba81c6eaf25179c882d554faee6f4476f9747e"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "5b92f029fab2cce44386d28588098b5be0824ef5",
+        "version" : "7.11.0"
+      }
+    }
+  ],
+  "version" : 3
+}
